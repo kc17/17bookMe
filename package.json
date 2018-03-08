@@ -1,27 +1,19 @@
 {
-  "name": "17bookme",
+  "name": "17bookMe",
   "version": "1.0.0",
-  "description": "readbook office website",
   "main": "index.js",
+  "repository": "https://github.com/polo13999/17bookMe.git",
+  "author": "線上讀書會 <polo13999@gmail.com>",
+  "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/polo13999/17bookMe.git"
-  },
-  "keywords": [
-    "react",
-    "next5",
-    "apollographql",
-    "redux",
-    "typescript",
-    "readbook"
-  ],
-  "author": "polo <polo13999@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/polo13999/17bookMe/issues"
-  },
-  "homepage": "https://github.com/polo13999/17bookMe#readme"
+    "install": "yarn build-all",
+    "next": "yarn build-firebase && cd \"src/app\" && yarn && yarn dev",
+    "preserve": "yarn build-all",
+    "serve": "firebase serve",
+    "predeploy": "yarn build-all",
+    "deploy": "firebase deploy",
+    "build-all": "yarn build-next && yarn build-firebase",
+    "build-next": "cd \"src/app\" && yarn && yarn build",
+    "build-firebase": "cd \"src/functions\" && yarn"
+  }
 }

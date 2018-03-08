@@ -1,0 +1,1 @@
+export default () => (<div>FireBase Deploy</div>)
