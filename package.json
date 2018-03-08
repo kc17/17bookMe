@@ -1,0 +1,27 @@
+{
+  "name": "17bookme",
+  "version": "1.0.0",
+  "description": "readbook office website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polo13999/17bookMe.git"
+  },
+  "keywords": [
+    "react",
+    "next5",
+    "apollographql",
+    "redux",
+    "typescript",
+    "readbook"
+  ],
+  "author": "polo <polo13999@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/polo13999/17bookMe/issues"
+  },
+  "homepage": "https://github.com/polo13999/17bookMe#readme"
+}
