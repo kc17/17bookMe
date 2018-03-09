@@ -1,6 +1,5 @@
-import App from '../components/App';
 
 export default () =>
-  <App>
-    <p>Index Page</p>
-  </App>;
+  <div>
+    測試新首頁
+  </div>;

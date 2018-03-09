@@ -1,6 +1,1 @@
-
-          window.__NEXT_REGISTER_PAGE('/', function() {
-            var comp = module.exports=webpackJsonp([4],{351:function(e,t,u){e.exports=u(352)},352:function(e,t,u){"use strict";function n(e){return e&&e.__esModule?e:{default:e}}Object.defineProperty(t,"__esModule",{value:!0});var l=u(7),r=n(l),a=u(168),o=n(a);t.default=function(){return r.default.createElement(o.default,null,r.default.createElement("p",null,"Index Page"))}}},[351]);
-            return { page: comp.default }
-          })
-        
+module.exports=__NEXT_REGISTER_PAGE("/",function(){var e=webpackJsonp([3],{180:function(e,t,n){e.exports=n(181)},181:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:true});var r=n(12);var u=n.n(r);t["default"]=function(){return u.a.createElement("div",null,"測試新首頁")}}},[180]);return{page:e.default}});
