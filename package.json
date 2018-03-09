@@ -7,13 +7,16 @@
   "license": "MIT",
   "scripts": {
     "install": "yarn build-all",
-    "next": "yarn build-firebase && cd \"src/app\" && yarn && yarn dev",
+    "next": "yarn build-firebase && cd \"app\" && yarn && yarn dev",
     "preserve": "yarn build-all",
     "serve": "firebase serve",
     "predeploy": "yarn build-all",
     "deploy": "firebase deploy",
     "build-all": "yarn build-next && yarn build-firebase",
-    "build-next": "cd \"src/app\" && yarn && yarn build",
-    "build-firebase": "cd \"src/functions\" && yarn"
+    "build-next": "cd \"app\" && yarn && yarn build",
+    "build-firebase": "cd \"functions\" && yarn"
+  },
+  "dependencies": {
+    "@types/node": "^9.4.6"
   }
 }
