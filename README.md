@@ -14,3 +14,7 @@ https://bookme-cc0fa.firebaseapp.com/
 執行yarn install 讓 app 程式碼輸出到 functions
 
 執行 firebase deploy
+
+注意版本號 這個地方因為平常都用 node 8.9 要使用 6.11.5
+ 
+
