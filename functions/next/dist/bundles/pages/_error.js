@@ -82,9 +82,16 @@ module.exports = __webpack_require__(4);
 
 /***/ }),
 /* 4 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(5)
+
+
+/***/ }),
+/* 5 */
 /***/ (function(module, exports) {
 
-module.exports = require("/Users/user/Sites/case/17bookMe/app/node_modules/next/dist/pages/_error.js");
+module.exports = require("next/error");
 
 /***/ })
 /******/ ]);
